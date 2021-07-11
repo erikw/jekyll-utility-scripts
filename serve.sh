@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Convenient shorthands for running $(bundle exec jekyll serve) with options for common configurations.
+#
 # TODO detect changes to _config.yml and restart without --open-url? Like ~/bin/macos_appearance_monitor.sh maybe
 # dev hack $(while :;do bin/serve.sh -c;done) let's restart with clean directory by giving SIGINT
 
