@@ -12,7 +12,7 @@ test $? -eq 0 || (echo "Can't find theme path from bundle" && exit 1)
 find_files() {
 	local path="$1"
 	local opts=
-	local ignorepaths=(.git .git-metadata .jekyll-cache node-modules _site .netlify README.md LICENSE)
+	local ignorepaths=(.git .git-metadata .jekyll-cache node_modules _site .netlify README.md LICENSE)
 	for ignorepath in ${ignorepaths[@]}; do
 		opts="$opts -path $path/$ignorepath -prune -o"
     done
