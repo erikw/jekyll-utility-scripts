@@ -3,6 +3,7 @@ A few helper scripts that I use for development with Jekyll. You can include the
 
 ```console
 $ git submodule add git@github.com:erikw/jekyll-utility-scripts.git bin/
+$ bin/serve.sh # for example
 ```
 
 
