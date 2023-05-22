@@ -21,7 +21,7 @@ find_files() {
 
 #upstream_files=$(find $theme_path | sed -e "s%${theme_path}/%%")
 #local_files=$(find . $(prune_opts))
-tmpd=$(mktemp --directory)
+tmpd=$(mktemp -d)
 
 #upstream_files=$(find_files "$theme_path")
 #local_files=$(find_files .) # Could use git-ls-files
