@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 # Wrapper around jekyll by bundle e.g.
 # $ jekyll.sh build
 
