@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Open up a multi-tab vimdiff for all files being overriden in project from the theme
+# Open up a multi-tab vimdiff for all files being overridden in project from the theme
 # Requirements: https://github.com/xenomachina/public/blob/master/vim/plugin/tab-multi-diff.vim described at http://www.xenomachina.com/2012/02/multi-diff-with-vim-andor-git.html
 
 set -eux
